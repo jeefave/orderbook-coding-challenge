@@ -127,3 +127,14 @@ Returns:
   executedQuantity: ..., // the # of ice cream scoops that this order has sold
 }
 ```
+
+
+## Suboptimal design
+
+- guid generation relies on poor RNG
+- overall O() can be reduced leveraging BST
+- OOP for sellOrder and buyOrder
+- file system concurrency and error handling
+- logging
+- documentation headers
+
