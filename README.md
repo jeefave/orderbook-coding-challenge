@@ -137,4 +137,5 @@ Returns:
 - file system concurrency and error handling
 - logging
 - documentation headers
-
+- sync is manual, requires differential read/write (1 file per order)
+- remove coupling from business logic and persitence (services, repositories, ...)
